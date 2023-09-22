@@ -2,17 +2,32 @@ nav {
     background-color: red;
 }
 
-.container{
-    display: block;
-}
-
-#pokeapiIMG{
+#pokeapiIMG {
     width: 90px;
     margin-left: 5%;
 }
 
-.custom-card {
+#custom-card {
 width: 70%;
+height: 100%;
+}
+
+#pagAndSearch {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 
+#searchBtn { 
+    justify-content: end;
+    
+}
+
+.col {
+    margin: 0.5%;
+}
+
+.row {
+    margin: 2%;
+}
