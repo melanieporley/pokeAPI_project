@@ -1,0 +1,18 @@
+nav {
+    background-color: red;
+}
+
+.container{
+    display: block;
+}
+
+#pokeapiIMG{
+    width: 90px;
+    margin-left: 5%;
+}
+
+.custom-card {
+width: 70%;
+}
+
+
