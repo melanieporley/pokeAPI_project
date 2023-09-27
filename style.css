@@ -1,5 +1,11 @@
+@font-face {
+    font-family: "retro_game_font";
+    src: url(Retro\ Gaming.ttf);
+}
+
 nav {
     background-color: red;
+    font-family: "retro_game_font";
 }
 
 body {
@@ -14,9 +20,8 @@ body {
 #custom-card {
 width: 10rem;
 height: 15rem;
-background-image: url("https://media.tenor.com/_Gkz-2OJRrUAAAAd/pokemon-nintendo.gif");
-background-size: 12rem;
-
+background-image: url("https://preview.redd.it/2-days-in-a-row-v0-jg8blkd3cse91.jpg?width=640&crop=smart&auto=webp&s=6b3cded6b28dc6422ab4b451c6904f3ccdfeceee");
+background-size: 10rem;
 }
 
 .col {
@@ -29,4 +34,18 @@ background-size: 12rem;
 
 #pokebola {
     width: 1rem;
+}
+
+#pagAndSearch {
+    font-family: "retro_game_font";
+}
+
+#reverseCard {
+width: 10rem;
+height: 15rem;
+background-image: url("https://i.ytimg.com/vi/1ZGU0D3_YxM/maxresdefault.jpg");
+}
+
+#bkgrd {
+background-color: transparent;
 }

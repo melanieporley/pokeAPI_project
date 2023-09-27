@@ -11,7 +11,7 @@ function pokemonCard(img, name) {
   <div class="card" id="custom-card">
   <img src="${img}" class="card-img-top" alt="...">
   <div class="card-body">
-    <p class="card-title text-center">${stringUpperToCase(name)}</p>
+    <p class="card-title text-center fw-bolder" style= "font-family: retro_game_font";>${stringUpperToCase(name)}</p>
   </div>
 </div>
 </div>
@@ -22,25 +22,24 @@ function pokemonCard(img, name) {
 
 function pokemonCardReverse(hp, attack, defense, speed) {
   const pokemonCardReverse = `
-  <div class="card" id="custom-card">
-  <div class="card-body">
-  <ul class="list-group list-group-flush">
-       <li class="list-group-item"><span>Vida</span><div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="${hp}" aria-valuemin="0" aria-valuemax="100" style="height: 6px">
+  <div class="card d-flex" id="reverseCard">
+  <div class="card-body justify-content-center" id="bkgrd">
+       <div><span>Vida</span><div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="${hp}" aria-valuemin="0" aria-valuemax="100" style="height: 6px">
        <div class="progress-bar" style="width: ${hp}%"></div>
-     </div></li>
-      <li class="list-group-item"><span>Ataque</span><div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="${attack}" aria-valuemin="0" aria-valuemax="100" style="height: 6px">
+     </div></div>
+      <div><span>Ataque</span><div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="${attack}" aria-valuemin="0" aria-valuemax="100" style="height: 6px">
       <div class="progress-bar" style="width: ${attack}%"></div>
-    </div></li>
-       <li class="list-group-item"><span>Defensa</span><div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="${defense}" aria-valuemin="0" aria-valuemax="100" style="height: 6px">
+    </div></div>
+       <div><span>Defensa</span><div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="${defense}" aria-valuemin="0" aria-valuemax="100" style="height: 6px">
        <div class="progress-bar" style="width: ${defense}%"></div>
-     </div></li>
-      <li class="list-group-item"><span>Velocidad</span><div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="${speed}" aria-valuemin="0" aria-valuemax="100" style="height: 6px">
+     </div></div>
+      <div><span>Velocidad</span><div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="${speed}" aria-valuemin="0" aria-valuemax="100" style="height: 6px">
       <div class="progress-bar" style="width: ${speed}%"></div>
-    </div></li>
- </ul> 
-  </div>
+    </div></div>
+ </div> 
 </div>
   `;
+
   return pokemonCardReverse;
 }
 
