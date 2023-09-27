@@ -2,32 +2,31 @@ nav {
     background-color: red;
 }
 
+body {
+    background-color: beige;
+}
+
 #pokeapiIMG {
-    width: 90px;
+    width: 8rem;
     margin-left: 5%;
 }
 
 #custom-card {
-width: 70%;
-height: 100%;
-}
+width: 10rem;
+height: 15rem;
+background-image: url("https://media.tenor.com/_Gkz-2OJRrUAAAAd/pokemon-nintendo.gif");
+background-size: 12rem;
 
-#pagAndSearch {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-
-#searchBtn { 
-    justify-content: end;
-    
 }
 
 .col {
-    margin: 0.5%;
+    margin: 0.3%;
 }
 
 .row {
     margin: 2%;
+}
+
+#pokebola {
+    width: 1rem;
 }
