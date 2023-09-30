@@ -44,8 +44,5 @@ background-size: 10rem;
 width: 10rem;
 height: 15rem;
 background-image: url("https://i.ytimg.com/vi/1ZGU0D3_YxM/maxresdefault.jpg");
-}
-
-#bkgrd {
-background-color: transparent;
+font-size: 90%;
 }
